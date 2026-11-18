@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elevate — 8 Weeks. A Real Coach. Real Results. | Calisthenics Family (concept)</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #141414; color: #fff; line-height: 1.6; }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 20px; }
+  header { padding: 28px 0 8px; text-align: center; }
+  .logo { font-weight: 900; letter-spacing: 2px; font-size: 15px; color: #7ED957; }
+  .logo span { color: #fff; }
+  .hero { text-align: center; padding: 44px 0 30px; }
+  .hero h1 { font-size: 42px; line-height: 1.12; font-weight: 900; text-transform: uppercase; }
+  .hero h1 em { font-style: normal; color: #7ED957; }
+  .hero p { margin: 18px auto 0; max-width: 620px; font-size: 18px; color: #d9d9d9; }
+  .badge { display: inline-block; background: #F5A623; color: #141414; font-weight: 800; font-size: 13px; padding: 6px 14px; border-radius: 999px; margin-bottom: 18px; }
+  .card { background: #1f1f1f; border: 1px solid #333; border-radius: 14px; padding: 28px; margin: 26px 0; }
+  .card h2 { font-size: 24px; font-weight: 900; text-transform: uppercase; margin-bottom: 6px; }
+  .card h2 em { font-style: normal; color: #7ED957; }
+  .card p.sub { color: #bbb; margin-bottom: 18px; }
+  form { display: flex; flex-direction: column; gap: 12px; }
+  label { font-size: 13px; font-weight: 700; color: #ccc; text-transform: uppercase; letter-spacing: 1px; }
+  input { padding: 13px 14px; border-radius: 8px; border: 1px solid #444; background: #141414; color: #fff; font-size: 16px; width: 100%; }
+  input:focus { outline: 2px solid #7ED957; border-color: #7ED957; }
+  button { background: #7ED957; color: #141414; font-weight: 900; font-size: 17px; padding: 15px; border: none; border-radius: 8px; cursor: pointer; text-transform: uppercase; letter-spacing: 0.5px; }
+  button:hover { background: #8ff06a; }
+  .fine { font-size: 12px; color: #999; margin-top: 10px; text-align: center; }
+  .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 16px; }
+  .step { background: #141414; border: 1px solid #333; border-radius: 10px; padding: 18px; }
+  .step b { display: block; color: #7ED957; font-size: 13px; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px; }
+  .step p { font-size: 14px; color: #ddd; }
+  .prices { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 16px; }
+  .price { background: #141414; border: 1px solid #333; border-radius: 10px; padding: 20px; text-align: center; }
+  .price.hot { border-color: #7ED957; }
+  .price h3 { font-size: 15px; text-transform: uppercase; letter-spacing: 1px; }
+  .price .amount { font-size: 30px; font-weight: 900; color: #7ED957; margin: 8px 0 2px; }
+  .price .per { font-size: 13px; color: #aaa; }
+  .price p { font-size: 13px; color: #ccc; margin-top: 10px; }
+  blockquote { background: #141414; border-left: 4px solid #7ED957; border-radius: 8px; padding: 16px 18px; margin: 12px 0; font-size: 15px; color: #e6e6e6; }
+  blockquote footer { color: #7ED957; font-weight: 700; margin-top: 8px; font-size: 13px; }
+  .stats { display: flex; justify-content: space-around; text-align: center; padding: 22px 0; flex-wrap: wrap; gap: 12px; }
+  .stats b { display: block; font-size: 26px; color: #7ED957; }
+  .stats span { font-size: 13px; color: #aaa; }
+  .foot { text-align: center; padding: 30px 0 40px; font-size: 12px; color: #888; }
+  .foot a { color: #7ED957; }
+  @media (max-width: 640px) {
+    .hero h1 { font-size: 30px; }
+    .steps, .prices { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header><div class="logo">⬢ CALISTHENICS <span>FAMILY</span></div></header>
+
+  <section class="hero">
+    <div class="badge">FREE 45-MINUTE 1-ON-1 SCAN</div>
+    <h1>Stop training alone.<br><em>Start training with a real coach.</em></h1>
+    <p>Elevate: 8 weeks. A real coach. Real results. Book your free Calisthenics Scan and leave with your personal plan — either way.</p>
+  </section>
+
+  <section class="card">
+    <h2>Book your free <em>Calisthenics Scan</em></h2>
+    <p class="sub">45 minutes, 1-on-1, with a real coach. Answer 6 quick questions and your coach prepares your personal plan before the call.</p>
+    <form onsubmit="return false;">
+      <label for="fname">First name</label>
+      <input id="fname" type="text" placeholder="Your first name" autocomplete="given-name">
+      <label for="email">Email</label>
+      <input id="email" type="email" placeholder="you@example.com" autocomplete="email">
+      <button type="submit">Book My Free Scan</button>
+    </form>
+    <p class="fine">Concept sample — this form does not send anything. The real scan is free and you keep your personal plan either way.</p>
+  </section>
+
+  <section class="card">
+    <h2>How Elevate <em>works</em></h2>
+    <div class="steps">
+      <div class="step"><b>1. Apply</b><p>Answer a few questions so your coach can prepare for your 1-on-1 Calisthenics Scan.</p></div>
+      <div class="step"><b>2. Get your plan</b><p>Book your free 45-minute 1-on-1 Calisthenics Scan and leave with your personal plan.</p></div>
+      <div class="step"><b>3. Start your 8 weeks</b><p>Your coach builds your personal training plan and guides you for 8 weeks.</p></div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Train your way — <em>real prices</em></h2>
+    <p class="sub">Start free with the app, go PRO when you're ready, or train 1-on-1 with Elevate.</p>
+    <div class="prices">
+      <div class="price"><h3>App PRO</h3><div class="amount">€9.99</div><div class="per">/month, billed yearly at €119.99</div><p>All programs and levels, full exercise library, progress tracking, nutrition tools and the member community. Cancel anytime.</p></div>
+      <div class="price hot"><h3>Elevate 1-on-1</h3><div class="amount">8 weeks</div><div class="per">with a real coach</div><p>Personal plan, weekly check-ins and a coach who knows your situation. Your investment is discussed during your free scan.</p></div>
+      <div class="price"><h3>PRO MAX</h3><div class="amount">€99</div><div class="per">/month, billed monthly</div><p>Personal coaching inside the app: custom plan, form checks, weekly check-ins and a nutrition plan. Cancel anytime.</p></div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>What athletes <em>say</em></h2>
+    <blockquote>“Perfect for beginners. I went from zero pull-ups to my first muscle up.”<footer>— Shay, PRO member</footer></blockquote>
+    <blockquote>“Best calisthenics app I have tried. Clear progressions and great support.”<footer>— Wardo, PRO member</footer></blockquote>
+    <div class="stats">
+      <div><b>400,000+</b><span>downloads</span></div>
+      <div><b>4.6</b><span>app rating</span></div>
+      <div><b>50,000+</b><span>athletes</span></div>
+    </div>
+  </section>
+
+  <div class="foot">
+    <p>Concept sample built to show what a free first step could look like — not affiliated with Calisthenics Family. The real site: <a href="https://calisthenics-family.com/">calisthenics-family.com</a> · Elevate: <a href="https://elevate.calisthenics-family.com/">elevate.calisthenics-family.com</a></p>
+  </div>
+</div>
+</body>
+</html>
